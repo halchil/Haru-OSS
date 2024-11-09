@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   nginx:
@@ -21,7 +21,7 @@ services:
       - ./docs:/docs  # ホストの./docsディレクトリをコンテナの/docsディレクトリにマウント
     environment:
       - PORT=3000
-    command: docsify serve /docs
+    command: ["docsify", "serve", "/docs"]  # docsifyのコマンドを明示的に指定
     healthcheck:  # healthcheckを追加
       test: ["CMD", "curl", "-f", "http://localhost:3000"]  # 3000番ポートの確認
       interval: 10s
