@@ -10,6 +10,7 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
     depends_on:
       - docsify
+        condition: service_healthy  # docsifyがhealthy状態になるまで待機
     networks:
       - oss_network
 
@@ -21,6 +22,12 @@ services:
     environment:
       - PORT=3000
     command: docsify serve /docs
+    healthcheck:  # healthcheckを追加
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]  # 3000番ポートの確認
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 5s  # docsifyが起動するまでの待機期間
     networks:
       - oss_network
 
