@@ -12,7 +12,7 @@ services:
       - docsify
 
   docsify:
-    image: smallzhong/docsify
+    image: sujaykumarh/docsify
     container_name: docsify
     volumes:
       - ./docs:/docs  # ホストの./docsディレクトリをコンテナの/docsディレクトリにマウント
