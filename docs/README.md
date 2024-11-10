@@ -1,6 +1,9 @@
 # わたしについて
-テスト
-test
+<!-- background image -->
+![](_media/bg.png)
+
+<!-- background color -->
+![color](#f0f0f0)
 
 画像
 ![Kubernetes logo](img/img1.png)
