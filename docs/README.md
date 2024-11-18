@@ -1,12 +1,12 @@
-<!-- background color -->
-![color](#f0f0f0)
+
 
 # ペタバイト時代の基盤を創る、DXを革新するプラットフォームエンジニア
 <!-- background image 
 ![](_media/bg.png)
 -->
+<!-- background color -->
+![color](#f0f0f0)
 
-# 自己紹介
 DXプラットフォームエンジニアとして、大規模データ基盤やエンジニア育成を行っており、
 Kubernetes、Docker、OSS活用を通じて、企業のデジタルトランスフォーメーションを支援します。
 
@@ -43,8 +43,22 @@ Kubernetes、Docker、OSS活用を通じて、企業のデジタルトランス�
 # 実績
 
 Hadoopを使ったペタバイト単位のデータプラットフォーム構築
+
 test
 <script defer class="speakerdeck-embed" data-id="645a33c608164c64bdd3590e0b56274c" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
+test2
+https://speakerdeck.com/halchil/monitoring-part2
+
+test iframe
+<iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" frameborder="0" src="https://speakerdeck.com/player/645a33c608164c64bdd3590e0b56274c" title="Monitoring part2" allowfullscreen="true" data-ratio="1.7777777777777777"></iframe>
+
+test4 
+
+[Speaker Deck: Monitoring part2](https://speakerdeck.com/halchil/monitoring-part2)
+
+
+
 
 AWSを使ったBIツールの導入
 
