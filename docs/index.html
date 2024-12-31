@@ -12,8 +12,34 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
     />
-    
+
+    <!-- ダークモード用 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" disabled>
+
+    <style>
+      body {
+        background-color: #f0f0f0; /* グレー */
+      }
+
+      /* サイドバーの背景色 */
+      .sidebar {
+        background-color: #f0f0f0; /* グレー */
+        border-right: 1px solid #dcdcdc; /* 境界線（オプション） */
+      }
+
+      .content {
+        background-color: #f0f0f0; /* コンテンツ部分の白背景（必要に応じて変更） */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+
   </head>
+
+  <!-- ダークモード用 -->
+  <script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-simple-dark-mode@latest/src/switchLightDarkMode.js"></script>
 
   <body>
     <div id="app"></div>
@@ -26,6 +52,15 @@
         logo: '/img/haru-logo.png',
         loadSidebar: true, /* サイドバーの表示 */
         subMaxLevel: 1, /* h1までをサイドバーに出す */
+
+        /*ダークモードにする設定*/
+        switchLightDarkMode: {
+          useSwitchMode: true,
+          top: 130,
+          right: 26,
+          svgColor: '#7d7b75',
+    },
+
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
