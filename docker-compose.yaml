@@ -8,6 +8,7 @@ services:
       - "80:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
+      - /home/ubuntu/Haru-OSS/docs/favicon.ico:/usr/share/nginx/html/favicon.ico:ro
     depends_on:
       - docsify
     #    condition: service_healthy  # docsifyがhealthy状態になるまで待機

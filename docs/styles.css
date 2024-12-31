@@ -1,0 +1,22 @@
+.button-image {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .button-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border: 2px solid #A9D0F5; /* 青い枠を追加 */
+    border-radius: 2px; /* 角を丸める */
+  }
+  .button-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .button-image:hover img {
+    transform: scale(1.1);
+  }
+  
