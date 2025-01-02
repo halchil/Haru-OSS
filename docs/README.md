@@ -3,31 +3,35 @@
 # <h1 style="font-size: 1em;">Profile</h1>
 -->
 # Profile
-こんにちは、春山慶太（Haruyama Keita）です。<br>
-私はプラットフォームエンジニアとして、OSSやクラウド技術を駆使したデータプラットフォームの設計・構築を専門としています。
+春山慶太（Haruyama Keita）<br>
+
+
+データプラットフォームエンジニアとして、OSSやクラウド技術を駆使したプラットフォームの設計・構築及びデータアナリティクスの支援を専門としています。
 現在は、大規模データプラットフォームやデータサイエンティスト向けの活用ツールを提供しています。
 
+<p style="background-color: black; color: green; padding: 10px; font-family: monospace;">
+このテキストは黒背景で緑文字です。
+# 🚀 ■Profile
+</p>
 
 # Skill
-主なスキル
-クラウド/コンテナ技術: Docker, Kubernetes, CRIO
+コンテナ技術: Docker, Kubernetes, Linux,CRIO<br>
+[![Platforn](https://skillicons.dev/icons?i=docker,kubernetes,ubuntu)](https://skillicons.dev)
 
-データプラットフォーム: Apache Spark, Hadoop, Ezmeral
+Web Server<br>
+[![Web Server](https://skillicons.dev/icons?i=nginx,php,js)](https://skillicons.dev)
 
-プログラミング: Python, Fortran
+DevOps<br>
+[![DevOps](https://skillicons.dev/icons?i=py,gitlab,jenkins,ansible)](https://skillicons.dev)
 
-オープンソースソフトウェア: OSS導入・運用
+Cloud<br>
+[![Cloud](https://skillicons.dev/icons?i=aws,azure)](https://skillicons.dev)
 
-ネットワーク管理: Calico, Nginx設定・運用
-
-詳しい実績は、こちら
-
-
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
-
-Haruyama
+詳しくは、実績をご参照下さい。
 
 <!-- https://github.com/tandpfun/skill-icons#readme -->
+
+# できること
 
 
 
